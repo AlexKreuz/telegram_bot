@@ -7,7 +7,7 @@ const bot = new TelegramBot(TOKEN, {
 });
 
 bot.onText(/\/start/, msg => {
-    const text =  `Приветствую, ${msg.from.first_name}\nКак дела?`;
+    const text =  `Привет, ${msg.from.first_name}\nКак дела?`;
 
 bot.sendMessage(msg.chat.id, text)
 
