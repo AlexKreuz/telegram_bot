@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "description": "\"# telegram_bot\"",
   "main": "index.js",
+    "scripts": {
+    "start": "nodemon index.js"  },
+  "engines": {"node": "8.10.0"},
   "author": "",
-  "scripts": {
-    "start": "nodemon index.js"
-  },
-  "engines": {"node": "8.10.0"}
-  "license" "ISC",
+  "license": "ISC",
   "dependencies": {
     "node-telegram-bot-api": "^0.30.0"
   },
