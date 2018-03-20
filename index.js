@@ -86,7 +86,7 @@ fs.readFile(`${__dirname}/pictures/${scr}`, (error, picture) => {
     if (error) throw new Error(error)
 
     bot.sendPhoto(chatId, picture).then(() =>{
-        bot.sendMessage(chatId, `Ну как вам? Показать кого-нибудь ещё?`)
+        bot.sendMessage(chatId, `Ну как вам? Показать что-нибудь ещё?`)
     })
 })
 }
